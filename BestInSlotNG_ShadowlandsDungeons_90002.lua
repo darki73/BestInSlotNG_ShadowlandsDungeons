@@ -36,17 +36,17 @@ function Dungeons:TheNecroticWake()
 
 	local bossName = EJ_GetEncounterInfo(2395)
 	local lootTable = {
-		17732, -- Viscera-Stitched Footpads
-		17733, -- Fused Bone Greatbelt
-		17734, -- Abominable Visage
-		17735, -- Engorged Worm Smasher
-		17736, -- Blight Belcher
-		17737, -- Stitchflesh's Misplaced Signet
-		17738, -- Blightbone Spaulders
-		17739, -- Maim, Mangle
-		17740, -- Rising Sun Revival
-		17741, -- Unnerving Focus
-		17742, -- Sudden Ambush
+		178731, -- Viscera-Stitched Footpads
+		178734, -- Fused Bone Greatbelt
+		178732, -- Abominable Visage
+		178730, -- Engorged Worm Smasher
+		178735, -- Blight Belcher
+		178736, -- Stitchflesh's Misplaced Signet
+		178733, -- Blightbone Spaulders
+		183505, -- Maim, Mangle
+		181641, -- Rising Sun Revival
+		181709, -- Unnerving Focus
+		183482, -- Sudden Ambush
 	}
 	self:RegisterBossLoot(theNecroticWake, lootTable, bossName)
 
@@ -59,18 +59,18 @@ function Dungeons:TheNecroticWake()
 
 	local bossName = EJ_GetEncounterInfo(2391)
 	local lootTable = {
-		17743, -- Rattling Deadeye Hood
-		17744, -- Bottled Flayedwing Toxin
-		17745, -- Reanimator's Mantle
-		17746, -- Risen Monstrosity Cuffs
-		17747, -- Legplates of Unholy Frenzy
-		17748, -- Amarth's Spellblade
-		17749, -- Bloodletting
-		17750, -- Depths of Insanity
-		17751, -- Everfrost
-		17752, -- Infernal Brand
-		17753, -- Incessant Hunter
-		17754, -- Memory of the Deathmaker
+		178738, -- Rattling Deadeye Hood
+		178742, -- Bottled Flayedwing Toxin
+		178740, -- Reanimator's Mantle
+		178741, -- Risen Monstrosity Cuffs
+		178739, -- Legplates of Unholy Frenzy
+		178737, -- Amarth's Spellblade
+		183402, -- Bloodletting
+		181712, -- Depths of Insanity
+		181982, -- Everfrost
+		182772, -- Infernal Brand
+		183481, -- Incessant Hunter
+		183387, -- Memory of the Deathmaker
 	}
 	self:RegisterBossLoot(theNecroticWake, lootTable, bossName)
 
@@ -83,20 +83,20 @@ function Dungeons:TheNecroticWake()
 
 	local bossName = EJ_GetEncounterInfo(2392)
 	local lootTable = {
-		17755, -- Satchel of Misbegotten Minions
-		17756, -- Striders of Restless Malice
-		17757, -- Gory Surgeon's Gloves
-		17758, -- Freshly Embalmed Jerkin
-		17759, -- Vile Butcher's Pauldrons
-		17760, -- Stitchflesh's Scalpel
-		17761, -- Encrusted Canopic Lid
-		17762, -- Spare Meat Hook
-		17763, -- Growing Inferno
-		17764, -- Planned Execution
-		17765, -- Artifice of the Archmage
-		17766, -- Carnivorous Stalkers
-		17767, -- Scalding Brew
-		17768, -- Memory of an Implosive Potential
+		178772, -- Satchel of Misbegotten Minions
+		178745, -- Striders of Restless Malice
+		178748, -- Gory Surgeon's Gloves
+		178744, -- Freshly Embalmed Jerkin
+		178749, -- Vile Butcher's Pauldrons
+		178743, -- Stitchflesh's Scalpel
+		178750, -- Encrusted Canopic Lid
+		178751, -- Spare Meat Hook
+		182385, -- Growing Inferno
+		183512, -- Planned Execution
+		181738, -- Artifice of the Archmage
+		182750, -- Carnivorous Stalkers
+		181700, -- Scalding Brew
+		183373, -- Memory of an Implosive Potential
 	}
 	self:RegisterBossLoot(theNecroticWake, lootTable, bossName)
 
@@ -109,21 +109,21 @@ function Dungeons:TheNecroticWake()
 
 	local bossName = EJ_GetEncounterInfo(2396)
 	local lootTable = {
-		17769, -- Undying Chill Shoulderpads
-		17770, -- Lichbone Legguards
-		17771, -- Ritual Commander's Ring
-		17772, -- Darkfrost Helmet
-		17773, -- Siphoning Phylactery Shard
-		17774, -- Necropolis Lord's Shackles
-		17775, -- Rimebinder's Runeblade
-		17776, -- Shining Radiance
-		17777, -- Resplendent Light
-		17778, -- Unleashed Frenzy
-		17779, -- Chilled to the Core
-		17780, -- Unrelenting Cold
-		17781, -- Marrowfang's Reins
-		17782, -- Memory of the Cold Front
-		17783, -- Memory of the Biting Cold
+		178779, -- Undying Chill Shoulderpads
+		178778, -- Lichbone Legguards
+		178781, -- Ritual Commander's Ring
+		178777, -- Darkfrost Helmet
+		178783, -- Siphoning Phylactery Shard
+		178782, -- Necropolis Lord's Shackles
+		178780, -- Rimebinder's Runeblade
+		181843, -- Shining Radiance
+		182622, -- Resplendent Light
+		182201, -- Unleashed Frenzy
+		182136, -- Chilled to the Core
+		181383, -- Unrelenting Cold
+		181819, -- Marrowfang's Reins
+		183278, -- Memory of the Cold Front
+		182633, -- Memory of the Biting Cold
 	}
 	self:RegisterBossLoot(theNecroticWake, lootTable, bossName)
 end
@@ -148,16 +148,16 @@ function Dungeons:Plaguefall()
 
 	local bossName = EJ_GetEncounterInfo(2419)
 	local lootTable = {
-		17577, -- Stradama's Misplaced Slippers
-		17578, -- Surgical Pustule Extractor
-		17579, -- Slimy Consumptive Organ
-		17580, -- Plague Handler's Greathelm
-		17581, -- Digested Interrogator's Gaze
-		17582, -- Blightborne Chain Legguards
-		17583, -- Well-Honed Instincts
-		17584, -- Eternal Hunger
-		17585, -- Lethal Poisons
-		17586, -- Truth's Wake
+		178756, -- Stradama's Misplaced Slippers
+		178753, -- Surgical Pustule Extractor
+		178770, -- Slimy Consumptive Organ
+		178773, -- Plague Handler's Greathelm
+		178760, -- Digested Interrogator's Gaze
+		178762, -- Blightborne Chain Legguards
+		183486, -- Well-Honed Instincts
+		181786, -- Eternal Hunger
+		183506, -- Lethal Poisons
+		182465, -- Truth's Wake
 	}
 	self:RegisterBossLoot(plaguefall, lootTable, bossName)
 
@@ -170,18 +170,18 @@ function Dungeons:Plaguefall()
 
 	local bossName = EJ_GetEncounterInfo(2403)
 	local lootTable = {
-		17587, -- Depraved Physician's Mask
-		17588, -- Fleshfused Crushers
-		17589, -- Malodorous Gristle-Sown Spaulders
-		17590, -- Tortured Assistant's Bindings
-		17591, -- Phial of Putrefaction
-		17592, -- Sophisticated Bonecracker
-		17593, -- Ashen Juggernaut
-		17594, -- Fel Commando
-		17595, -- Jade Bond
-		17596, -- Icy Propulsion
-		17597, -- Dissonant Echoes
-		17598, -- High Voltage
+		178759, -- Depraved Physician's Mask
+		178775, -- Fleshfused Crushers
+		178763, -- Malodorous Gristle-Sown Spaulders
+		178767, -- Tortured Assistant's Bindings
+		178771, -- Phial of Putrefaction
+		178752, -- Sophisticated Bonecracker
+		180933, -- Ashen Juggernaut
+		182752, -- Fel Commando
+		181495, -- Jade Bond
+		181455, -- Icy Propulsion
+		182140, -- Dissonant Echoes
+		182126, -- High Voltage
 	}
 	self:RegisterBossLoot(plaguefall, lootTable, bossName)
 
@@ -194,18 +194,18 @@ function Dungeons:Plaguefall()
 
 	local bossName = EJ_GetEncounterInfo(2423)
 	local lootTable = {
-		17599, -- Arachnid Cipher Ring
-		17600, -- Scarred Bloodbound Girdle
-		17601, -- Halberd of the Aranakk
-		17602, -- Fastened Venombarb Binds
-		17603, -- Mitts of Flawless Duplication
-		17604, -- Belt of Wretched Manipulations
-		17605, -- Domina's Oozing Shiv
-		17606, -- Strength of the Pack
-		17607, -- Lingering Plague
-		17608, -- Relentless Onslaught
-		17609, -- Memory of the Serpentstalker's Trickery
-		17610, -- Memory of the Rotten
+		178933, -- Arachnid Cipher Ring
+		178931, -- Scarred Bloodbound Girdle
+		178929, -- Halberd of the Aranakk
+		178934, -- Fastened Venombarb Binds
+		178930, -- Mitts of Flawless Duplication
+		178932, -- Belt of Wretched Manipulations
+		178928, -- Domina's Oozing Shiv
+		183167, -- Strength of the Pack
+		182208, -- Lingering Plague
+		182368, -- Relentless Onslaught
+		183260, -- Memory of the Serpentstalker's Trickery
+		183345, -- Memory of the Rotten
 	}
 	self:RegisterBossLoot(plaguefall, lootTable, bossName)
 
@@ -218,21 +218,21 @@ function Dungeons:Plaguefall()
 
 	local bossName = EJ_GetEncounterInfo(2404)
 	local lootTable = {
-		17611, -- Blighted Margrave's Cloak
-		17612, -- Leggings of the Erudite Scholar
-		17613, -- Poxstorm, Longsword of Pestilence
-		17614, -- Infinitely Divisible Ooze
-		17615, -- Muckwallow Stompers
-		17616, -- Gloves of Obscure Rituals
-		17617, -- Plagueborne Shoulderguards
-		17618, -- Fury of the Skies
-		17619, -- Infernal Cascade
-		17620, -- Rabid Shadows
-		17621, -- Cold Embrace
-		17622, -- Sludge Feeler
-		17623, -- Memory of a Darkglare Medallion
-		17624, -- Memory of my Crystalline Reflection
-		17625, -- Memory of Death's Certainty
+		178755, -- Blighted Margrave's Cloak
+		178761, -- Leggings of the Erudite Scholar
+		178754, -- Poxstorm, Longsword of Pestilence
+		178769, -- Infinitely Divisible Ooze
+		178774, -- Muckwallow Stompers
+		178757, -- Gloves of Obscure Rituals
+		178764, -- Plagueborne Shoulderguards
+		183478, -- Fury of the Skies
+		181504, -- Infernal Cascade
+		182139, -- Rabid Shadows
+		182747, -- Cold Embrace
+		181271, -- Sludge Feeler
+		183212, -- Memory of a Darkglare Medallion
+		183319, -- Memory of my Crystalline Reflection
+		182637, -- Memory of Death's Certainty
 	}
 	self:RegisterBossLoot(plaguefall, lootTable, bossName)
 end
@@ -257,21 +257,21 @@ function Dungeons:MistsOfTirnaScithe()
 
 	local bossName = EJ_GetEncounterInfo(2400)
 	local lootTable = {
-		17531, -- Scithewood Scepter
-		17532, -- Rainshadow Hauberk
-		17533, -- Soulthorn Visage
-		17534, -- Deathshackle Wristwraps
-		17535, -- Ingra Maloch's Mantle
-		17536, -- Drustlord's Greataxe
-		17537, -- Unbound Changeling
-		17538, -- Clasp of Waning Shadow
-		17539, -- Wrathbark Greathelm
-		17540, -- Pain Transformation
-		17541, -- Swirling Currents
-		17542, -- Ready for Anything
-		17543, -- Enkindled Spirit
-		17544, -- Powerful Precision
-		17545, -- Memory of the Soulforge Embers
+		178709, -- Scithewood Scepter
+		178698, -- Rainshadow Hauberk
+		178692, -- Soulthorn Visage
+		178704, -- Deathshackle Wristwraps
+		178696, -- Ingra Maloch's Mantle
+		178713, -- Drustlord's Greataxe
+		178708, -- Unbound Changeling
+		178700, -- Clasp of Waning Shadow
+		178694, -- Wrathbark Greathelm
+		181844, -- Pain Transformation
+		182143, -- Swirling Currents
+		183491, -- Ready for Anything
+		182582, -- Enkindled Spirit
+		182686, -- Powerful Precision
+		183253, -- Memory of the Soulforge Embers
 	}
 	self:RegisterBossLoot(mistsOfTirnaScithe, lootTable, bossName)
 
@@ -284,21 +284,21 @@ function Dungeons:MistsOfTirnaScithe()
 
 	local bossName = EJ_GetEncounterInfo(2402)
 	local lootTable = {
-		17546, -- Hood of the Hidden Path
-		17547, -- Prankster's Pauldrons
-		17548, -- Fogweaver Gauntlets
-		17549, -- Wintersnap Shoulderguards
-		17550, -- Tanglewood Thorn
-		17551, -- Mistcaller Ocarina
-		17552, -- Tricksprite Gloves
-		17553, -- Trailspinner Pendant
-		17554, -- Magi's Brand
-		17555, -- Coordinated Offensive
-		17556, -- Duplicitous Havoc
-		17557, -- Perforated Veins
-		17558, -- Crown of Autumnal Flora
-		17559, -- Memory of the Disciplinary Command
-		17560, -- Memory of the Duskwalker's Patch
+		178691, -- Hood of the Hidden Path
+		178697, -- Prankster's Pauldrons
+		178706, -- Fogweaver Gauntlets
+		178695, -- Wintersnap Shoulderguards
+		178710, -- Tanglewood Thorn
+		178715, -- Mistcaller Ocarina
+		178705, -- Tricksprite Gloves
+		178707, -- Trailspinner Pendant
+		181734, -- Magi's Brand
+		181462, -- Coordinated Offensive
+		182754, -- Duplicitous Havoc
+		183514, -- Perforated Veins
+		182305, -- Crown of Autumnal Flora
+		183266, -- Memory of the Disciplinary Command
+		183336, -- Memory of the Duskwalker's Patch
 	}
 	self:RegisterBossLoot(mistsOfTirnaScithe, lootTable, bossName)
 
@@ -311,22 +311,22 @@ function Dungeons:MistsOfTirnaScithe()
 
 	local bossName = EJ_GetEncounterInfo(2405)
 	local lootTable = {
-		17561, -- Hiveswarm Bracers
-		17562, -- Cocoonsilk Cowl
-		17563, -- Sapgorger Belt
-		17564, -- Acidslough Bulwark
-		17565, -- Bands of the Undergrowth
-		17566, -- Axe of the Deadgrove
-		17567, -- Gormshell Greaves
-		17568, -- Lakali's Spire of Knowledge
-		17569, -- Echoing Call
-		17570, -- Convocation of the Dead
-		17571, -- Embrace of Earth
-		17572, -- Savage Combatant
-		17573, -- Crash the Ramparts
-		17574, -- Spinemaw Gormling
-		17575, -- Serrated Glaive
-		17576, -- Memory of a Timeworn Dreambinder
+		178703, -- Hiveswarm Bracers
+		178693, -- Cocoonsilk Cowl
+		178699, -- Sapgorger Belt
+		178712, -- Acidslough Bulwark
+		178702, -- Bands of the Undergrowth
+		178711, -- Axe of the Deadgrove
+		178701, -- Gormshell Greaves
+		178714, -- Lakali's Spire of Knowledge
+		183132, -- Echoing Call
+		182206, -- Convocation of the Dead
+		182142, -- Embrace of Earth
+		183485, -- Savage Combatant
+		180935, -- Crash the Ramparts
+		183623, -- Spinemaw Gormling
+		182384, -- Serrated Glaive
+		183229, -- Memory of a Timeworn Dreambinder
 	}
 	self:RegisterBossLoot(mistsOfTirnaScithe, lootTable, bossName)
 end
@@ -351,17 +351,17 @@ function Dungeons:HallsOfAtonement()
 
 	local bossName = EJ_GetEncounterInfo(2406)
 	local lootTable = {
-		17484, -- Halkias's Towering Pillars
-		17485, -- Hood of Refracted Shadows
-		17486, -- Sinlight Shroud
-		17487, -- Sin Stained Pendant
-		17488, -- Shardskin Sabatons
-		17489, -- Accelerated Cold
-		17490, -- Exaltation
-		17491, -- Flame Accretion
-		17492, -- Vengeful Shock
-		17493, -- Memory of a Seismic Reverberation
-		17494, -- Memory of the Crimson Runes
+		178818, -- Halkias's Towering Pillars
+		178817, -- Hood of Refracted Shadows
+		178813, -- Sinlight Shroud
+		178827, -- Sin Stained Pendant
+		178830, -- Shardskin Sabatons
+		181848, -- Accelerated Cold
+		181845, -- Exaltation
+		181736, -- Flame Accretion
+		182681, -- Vengeful Shock
+		183380, -- Memory of a Seismic Reverberation
+		182629, -- Memory of the Crimson Runes
 	}
 	self:RegisterBossLoot(hallsOfAtonement, lootTable, bossName)
 
@@ -374,18 +374,18 @@ function Dungeons:HallsOfAtonement()
 
 	local bossName = EJ_GetEncounterInfo(2387)
 	local lootTable = {
-		17495, -- Pulsating Stoneheart
-		17496, -- Skyterror's Stonehide Leggings
-		17497, -- Stoneguardian's Morningstar
-		17498, -- Soaring Decimator's Hauberk
-		17499, -- Stonefiend Shaper's Mitts
-		17500, -- Wing Commander's Helmet
-		17501, -- Shake the Foundations
-		17502, -- Layered Mane
-		17503, -- Hack and Slash
-		17504, -- Stinging Strike
-		17505, -- Deeper Daggers
-		17506, -- Memory of the Deeptremor Stone
+		178825, -- Pulsating Stoneheart
+		178819, -- Skyterror's Stonehide Leggings
+		178834, -- Stoneguardian's Morningstar
+		178815, -- Soaring Decimator's Hauberk
+		178833, -- Stonefiend Shaper's Mitts
+		178812, -- Wing Commander's Helmet
+		182127, -- Shake the Foundations
+		183487, -- Layered Mane
+		181735, -- Hack and Slash
+		183184, -- Stinging Strike
+		183511, -- Deeper Daggers
+		183349, -- Memory of the Deeptremor Stone
 	}
 	self:RegisterBossLoot(hallsOfAtonement, lootTable, bossName)
 
@@ -398,17 +398,17 @@ function Dungeons:HallsOfAtonement()
 
 	local bossName = EJ_GetEncounterInfo(2411)
 	local lootTable = {
-		17507, -- Breastplate of Otherworldly Influence
-		17508, -- Gloves of Haunting Fixation
-		17509, -- Mantle of Ephemeral Visages
-		17510, -- Nathrian Tabernacle
-		17511, -- Sunblood Amethyst
-		17512, -- Cord of the Dark Word
-		17513, -- Untempered Dedication
-		17514, -- Blood Bond
-		17515, -- Swift Penitence
-		17516, -- Resplendent Mist
-		17517, -- Memory of the Righteous Bulwark
+		178814, -- Breastplate of Otherworldly Influence
+		178832, -- Gloves of Haunting Fixation
+		178821, -- Mantle of Ephemeral Visages
+		178828, -- Nathrian Tabernacle
+		178826, -- Sunblood Amethyst
+		178822, -- Cord of the Dark Word
+		182675, -- Untempered Dedication
+		181963, -- Blood Bond
+		181867, -- Swift Penitence
+		181505, -- Resplendent Mist
+		183306, -- Memory of the Righteous Bulwark
 	}
 	self:RegisterBossLoot(hallsOfAtonement, lootTable, bossName)
 
@@ -421,19 +421,19 @@ function Dungeons:HallsOfAtonement()
 
 	local bossName = EJ_GetEncounterInfo(2413)
 	local lootTable = {
-		17518, -- Slippers of Leavened Station
-		17519, -- Pauldrons of Unleashed Pride
-		17520, -- Nathrian Usurper's Mask
-		17521, -- Nathrian Ferula
-		17522, -- Signet of the False Accuser
-		17523, -- Waistcord of Dark Devotion
-		17524, -- Ice Bite
-		17525, -- Tyrant's Soul
-		17526, -- Demon Muzzle
-		17527, -- Resonant Words
-		17528, -- Precise Alignment
-		17529, -- Memory of the Dark Titan
-		17530, -- Memory of the Firestorm
+		178831, -- Slippers of Leavened Station
+		178820, -- Pauldrons of Unleashed Pride
+		178816, -- Nathrian Usurper's Mask
+		178829, -- Nathrian Ferula
+		178824, -- Signet of the False Accuser
+		178823, -- Waistcord of Dark Devotion
+		181461, -- Ice Bite
+		182751, -- Tyrant's Soul
+		182598, -- Demon Muzzle
+		181944, -- Resonant Words
+		183477, -- Precise Alignment
+		183241, -- Memory of the Dark Titan
+		183275, -- Memory of the Firestorm
 	}
 	self:RegisterBossLoot(hallsOfAtonement, lootTable, bossName)
 end
@@ -458,18 +458,18 @@ function Dungeons:SpiresOfAscension()
 
 	local bossName = EJ_GetEncounterInfo(2399)
 	local lootTable = {
-		17678, -- Azure-Venom Choker
-		17679, -- Kin-Tara's Baleful Cord
-		17680, -- Winged Hunters' Gloves
-		17681, -- Forsworn Stalker's Hauberk
-		17682, -- Quarterstaff of Discordant Ethic
-		17683, -- Warboots of Ruthless Conviction
-		17684, -- Carnivorous Instinct
-		17685, -- Mortal Combo
-		17686, -- Ferocious Appetite
-		17687, -- Stiletto Staccato
-		17688, -- Nature's Reach
-		17689, -- Memory of a Cat-eye Curio
+		180115, -- Azure-Venom Choker
+		180109, -- Kin-Tara's Baleful Cord
+		180103, -- Winged Hunters' Gloves
+		180100, -- Forsworn Stalker's Hauberk
+		180097, -- Quarterstaff of Discordant Ethic
+		180101, -- Warboots of Ruthless Conviction
+		183483, -- Carnivorous Instinct
+		182468, -- Mortal Combo
+		182610, -- Ferocious Appetite
+		183513, -- Stiletto Staccato
+		182144, -- Nature's Reach
+		183231, -- Memory of a Cat-eye Curio
 	}
 	self:RegisterBossLoot(spiresOfAscension, lootTable, bossName)
 
@@ -482,19 +482,19 @@ function Dungeons:SpiresOfAscension()
 
 	local bossName = EJ_GetEncounterInfo(2416)
 	local lootTable = {
-		17690, -- Overcharged Anima Battery
-		17691, -- Dark Praetorian's Clasp
-		17692, -- Penitent Edge
-		17693, -- Distorted Construct's Gauntlets
-		17694, -- Shadowhirl Waistwrap
-		17695, -- Dark Stride Footwraps
-		17696, -- Corrupting Leer
-		17697, -- Expurgation
-		17698, -- Ambidexterity
-		17699, -- Calculated Strikes
-		17700, -- Shivering Core
-		17701, -- Memory of the Consuming Wrath
-		17702, -- Memory of Celerity
+		180116, -- Overcharged Anima Battery
+		180110, -- Dark Praetorian's Clasp
+		180095, -- Penitent Edge
+		180104, -- Distorted Construct's Gauntlets
+		180111, -- Shadowhirl Waistwrap
+		180102, -- Dark Stride Footwraps
+		182478, -- Corrupting Leer
+		182462, -- Expurgation
+		183508, -- Ambidexterity
+		181435, -- Calculated Strikes
+		181389, -- Shivering Core
+		183365, -- Memory of the Consuming Wrath
+		183338, -- Memory of Celerity
 	}
 	self:RegisterBossLoot(spiresOfAscension, lootTable, bossName)
 
@@ -507,19 +507,19 @@ function Dungeons:SpiresOfAscension()
 
 	local bossName = EJ_GetEncounterInfo(2414)
 	local lootTable = {
-		17703, -- Anima Field Emitter
-		17704, -- The Philosopher
-		17705, -- Empyreal Ordnance
-		17706, -- Purge Protocol Legwraps
-		17707, -- Vicious Surge Faceguard
-		17708, -- Absonant Construct's Handguards
-		17709, -- Thunderous Echo Vambraces
-		17710, -- Soul Furnace
-		17711, -- Royal Decree
-		17712, -- Merciless Bonegrinder
-		17713, -- Meat Shield
-		17714, -- Memory of the Lightbringer's Tempest
-		17715, -- Memory of the Thunderlord
+		180118, -- Anima Field Emitter
+		180112, -- The Philosopher
+		180117, -- Empyreal Ordnance
+		180107, -- Purge Protocol Legwraps
+		180106, -- Vicious Surge Faceguard
+		180105, -- Absonant Construct's Handguards
+		180113, -- Thunderous Echo Vambraces
+		182471, -- Soul Furnace
+		182753, -- Royal Decree
+		180944, -- Merciless Bonegrinder
+		182187, -- Meat Shield
+		183313, -- Memory of the Lightbringer's Tempest
+		183392, -- Memory of the Thunderlord
 	}
 	self:RegisterBossLoot(spiresOfAscension, lootTable, bossName)
 
@@ -532,22 +532,22 @@ function Dungeons:SpiresOfAscension()
 
 	local bossName = EJ_GetEncounterInfo(2412)
 	local lootTable = {
-		17716, -- Abyssal Disharmony Breeches
-		17717, -- Fallen Paragon's Armguards
-		17718, -- Boon of the Archon
-		17719, -- Devos's Cacophonous Poleaxe
-		17720, -- Sinister Requiem Vestments
-		17721, -- Breastplate of Brutal Dissonance
-		17722, -- Drape of Twisted Loyalties
-		17723, -- Holy Oration
-		17724, -- Focused Lightning
-		17725, -- Unstoppable Growth
-		17726, -- Brutal Projectiles
-		17727, -- Focused Light
-		17728, -- Xuen's Bond
-		17729, -- Memory of the Doom Winds
-		17730, -- Memory of Ancient Teachings
-		17731, -- Memory of the Rylakstalker's Fangs
+		180108, -- Abyssal Disharmony Breeches
+		180114, -- Fallen Paragon's Armguards
+		180119, -- Boon of the Archon
+		180096, -- Devos's Cacophonous Poleaxe
+		180098, -- Sinister Requiem Vestments
+		180099, -- Breastplate of Brutal Dissonance
+		180123, -- Drape of Twisted Loyalties
+		182141, -- Holy Oration
+		182135, -- Focused Lightning
+		183488, -- Unstoppable Growth
+		182649, -- Brutal Projectiles
+		182667, -- Focused Light
+		181465, -- Xuen's Bond
+		183354, -- Memory of the Doom Winds
+		183290, -- Memory of Ancient Teachings
+		183257, -- Memory of the Rylakstalker's Fangs
 	}
 	self:RegisterBossLoot(spiresOfAscension, lootTable, bossName)
 end
@@ -574,18 +574,18 @@ function Dungeons:TheaterOfPain()
 
 	local bossName = EJ_GetEncounterInfo(2397)
 	local lootTable = {
-		17784, -- Bloodoath Signet
-		17785, -- Amphitheater Stalker's Hood
-		17786, -- Plague-Licked Amice
-		17787, -- Dessia's Decimating Decapitator
-		17788, -- Vial of Spectral Essence
-		17789, -- Galvanized Oxxein Legguards
-		17790, -- Vest of Concealed Secrets
-		17791, -- Unchecked Aggression
-		17792, -- Poisoned Katar
-		17793, -- Celestial Effervescence
-		17794, -- Controlled Destruction
-		17795, -- Memory of the Master Assassin's Mark
+		178871, -- Bloodoath Signet
+		178799, -- Amphitheater Stalker's Hood
+		178803, -- Plague-Licked Amice
+		178866, -- Dessia's Decimating Decapitator
+		178810, -- Vial of Spectral Essence
+		178800, -- Galvanized Oxxein Legguards
+		178795, -- Vest of Concealed Secrets
+		183484, -- Unchecked Aggression
+		183503, -- Poisoned Katar
+		181705, -- Celestial Effervescence
+		183197, -- Controlled Destruction
+		183332, -- Memory of the Master Assassin's Mark
 	}
 	self:RegisterBossLoot(theaterOfPain, lootTable, bossName)
 
@@ -598,14 +598,14 @@ function Dungeons:TheaterOfPain()
 
 	local bossName = EJ_GetEncounterInfo(2401)
 	local lootTable = {
-		17796, -- Fleshfused Circle
-		17797, -- Abdominal Securing Chestguard
-		17798, -- Viscera of Coalesced Hatred
-		17799, -- Contaminated Gauze Wristwraps
-		17800, -- Grips of Overwhelming Beatings
-		17801, -- Fueled by Violence
-		17802, -- Count the Odds
-		17803, -- Withering Plague
+		178869, -- Fleshfused Circle
+		178793, -- Abdominal Securing Chestguard
+		178808, -- Viscera of Coalesced Hatred
+		178806, -- Contaminated Gauze Wristwraps
+		178798, -- Grips of Overwhelming Beatings
+		180932, -- Fueled by Violence
+		183510, -- Count the Odds
+		181866, -- Withering Plague
 	}
 	self:RegisterBossLoot(theaterOfPain, lootTable, bossName)
 
@@ -618,19 +618,19 @@ function Dungeons:TheaterOfPain()
 
 	local bossName = EJ_GetEncounterInfo(2390)
 	local lootTable = {
-		17804, -- Xav's Pike of Authority
-		17805, -- Fearless Challenger's Leggings
-		17806, -- Triumphant Combatant's Chainmail
-		17807, -- Fleshcrafter's Knife
-		17808, -- Gorebound Predator's Gavel
-		17809, -- Pit Fighter's Wristguards
-		17810, -- Gorestained Cleaver
-		17811, -- Templar's Vindication
-		17812, -- Deadly Chain
-		17813, -- Dancing with Fate
-		17814, -- Memory of Razelikh's Defilement
-		17815, -- Memory of the Magistrate's Judgment
-		17816, -- Memory of the Unhinged
+		178865, -- Xav's Pike of Authority
+		178801, -- Fearless Challenger's Leggings
+		178794, -- Triumphant Combatant's Chainmail
+		178789, -- Fleshcrafter's Knife
+		178864, -- Gorebound Predator's Gavel
+		178807, -- Pit Fighter's Wristguards
+		178863, -- Gorestained Cleaver
+		182559, -- Templar's Vindication
+		182657, -- Deadly Chain
+		182383, -- Dancing with Fate
+		183220, -- Memory of Razelikh's Defilement
+		183300, -- Memory of the Magistrate's Judgment
+		183385, -- Memory of the Unhinged
 	}
 	self:RegisterBossLoot(theaterOfPain, lootTable, bossName)
 
@@ -643,17 +643,17 @@ function Dungeons:TheaterOfPain()
 
 	local bossName = EJ_GetEncounterInfo(2389)
 	local lootTable = {
-		17817, -- Girdle of Shattered Dreams
-		17818, -- Soulletting Ruby
-		17819, -- Ritual Bone Band
-		17820, -- Boots of Shuddering Matter
-		17821, -- Soulsewn Vestments
-		17822, -- Combusting Engine
-		17823, -- Call of Flame
-		17824, -- Embrace Death
-		17825, -- Wrench Evil
-		17826, -- Memory of the Diabolic Raiment
-		17827, -- Memory of Death's Embrace
+		178805, -- Girdle of Shattered Dreams
+		178809, -- Soulletting Ruby
+		178870, -- Ritual Bone Band
+		178796, -- Boots of Shuddering Matter
+		178792, -- Soulsewn Vestments
+		182769, -- Combusting Engine
+		182128, -- Call of Flame
+		181980, -- Embrace Death
+		182456, -- Wrench Evil
+		183375, -- Memory of the Diabolic Raiment
+		182617, -- Memory of Death's Embrace
 	}
 	self:RegisterBossLoot(theaterOfPain, lootTable, bossName)
 
@@ -666,20 +666,20 @@ function Dungeons:TheaterOfPain()
 
 	local bossName = EJ_GetEncounterInfo(2417)
 	local lootTable = {
-		17828, -- Grim Codex
-		17829, -- Fallen Empress's Cord
-		17830, -- Barricade of the Endless Empire
-		17831, -- Deathwalker's Promise
-		17832, -- Ring of Perpetual Conflict
-		17833, -- Unyielding Combatant's Pauldrons
-		17834, -- Vanquished Usurper's Footpads
-		17835, -- Stellar Inspiration
-		17836, -- Focused Malignancy
-		17837, -- Sharpshooter's Focus
-		17838, -- Haunting Apparitions
-		17839, -- Nether Precision
-		17840, -- Memory of Cauterizing Shadows
-		17841, -- Memory of Lycara
+		178811, -- Grim Codex
+		178804, -- Fallen Empress's Cord
+		178867, -- Barricade of the Endless Empire
+		178868, -- Deathwalker's Promise
+		178872, -- Ring of Perpetual Conflict
+		178802, -- Unyielding Combatant's Pauldrons
+		178797, -- Vanquished Usurper's Footpads
+		183476, -- Stellar Inspiration
+		182743, -- Focused Malignancy
+		182648, -- Sharpshooter's Focus
+		182131, -- Haunting Apparitions
+		181511, -- Nether Precision
+		183314, -- Memory of Cauterizing Shadows
+		183225, -- Memory of Lycara
 	}
 	self:RegisterBossLoot(theaterOfPain, lootTable, bossName)
 end
@@ -704,18 +704,18 @@ function Dungeons:DeOtherSide()
 
 	local bossName = EJ_GetEncounterInfo(2408)
 	local lootTable = {
-		17432, -- Soulfeather Breeches
-		17433, -- Blood-Spattered Scale
-		17434, -- Girdle of the Soulflayer
-		17435, -- Windscale Moccasins
-		17436, -- Hakkari Revenant's Grips
-		17437, -- Bloodspiller
-		17438, -- Zin'khas, Blade of the Fallen God
-		17439, -- Nourishing Chi
-		17440, -- Well-Placed Steel
-		17441, -- One With the Beast
-		17442, -- Unruly Winds
-		17443, -- Umbral Intensity
+		179324, -- Soulfeather Breeches
+		179331, -- Blood-Spattered Scale
+		179326, -- Girdle of the Soulflayer
+		179322, -- Windscale Moccasins
+		179325, -- Hakkari Revenant's Grips
+		179328, -- Bloodspiller
+		179330, -- Zin'khas, Blade of the Fallen God
+		181737, -- Nourishing Chi
+		183504, -- Well-Placed Steel
+		182621, -- One With the Beast
+		182134, -- Unruly Winds
+		183479, -- Umbral Intensity
 	}
 	self:RegisterBossLoot(deOtherSide, lootTable, bossName)
 
@@ -729,18 +729,18 @@ function Dungeons:DeOtherSide()
 
 	local bossName = EJ_GetEncounterInfo(2409)
 	local lootTable = {
-		17444, -- Supercollider
-		17445, -- Whizblast Walking Stick
-		17446, -- Techno-Coil Legguards
-		17447, -- Dynamo Doomstompers
-		17448, -- Manastorm's Magnificent Threads
-		17449, -- Overwhelming Power Crystal
-		17450, -- Rocket Chicken Handlers
-		17451, -- Borne of Blood
-		17452, -- Arcane Prodigy
-		17453, -- Memory of a Burning Wound
-		17454, -- Memory of the Infinite Arcane
-		17455, -- Memory of Wilfred's Sigil of Superior Summoning
+		179340, -- Supercollider
+		179339, -- Whizblast Walking Stick
+		179337, -- Techno-Coil Legguards
+		179338, -- Dynamo Doomstompers
+		179335, -- Manastorm's Magnificent Threads
+		179342, -- Overwhelming Power Crystal
+		179336, -- Rocket Chicken Handlers
+		182748, -- Borne of Blood
+		181509, -- Arcane Prodigy
+		183216, -- Memory of a Burning Wound
+		183271, -- Memory of the Infinite Arcane
+		183369, -- Memory of Wilfred's Sigil of Superior Summoning
 	}
 	self:RegisterBossLoot(deOtherSide, lootTable, bossName)
 
@@ -753,18 +753,18 @@ function Dungeons:DeOtherSide()
 
 	local bossName = EJ_GetEncounterInfo(2398)
 	local lootTable = {
-		17456, -- Inscrutable Quantum Device
-		17457, -- Far Traveler's Shoulderpads
-		17458, -- Breastplate of Fatal Contrivances
-		17459, -- Collector's Pulse Staff
-		17460, -- Dealer Xy'exa's Cape
-		17461, -- Sash of Exquisite Acquisitions
-		17462, -- Xy Cartel Crossbow
-		17463, -- Spatial Rift Striders
-		17464, -- Flame Infusion
-		17465, -- Show of Force
-		17466, -- Sleight of Hand
-		17467, -- Memory of a Wildfire Cluster
+		179350, -- Inscrutable Quantum Device
+		179344, -- Far Traveler's Shoulderpads
+		179346, -- Breastplate of Fatal Contrivances
+		179347, -- Collector's Pulse Staff
+		179349, -- Dealer Xy'exa's Cape
+		179343, -- Sash of Exquisite Acquisitions
+		179348, -- Xy Cartel Crossbow
+		179345, -- Spatial Rift Striders
+		183396, -- Flame Infusion
+		182624, -- Show of Force
+		183509, -- Sleight of Hand
+		183265, -- Memory of a Wildfire Cluster
 	}
 	self:RegisterBossLoot(deOtherSide, lootTable, bossName)
 
@@ -777,22 +777,22 @@ function Dungeons:DeOtherSide()
 
 	local bossName = EJ_GetEncounterInfo(2410)
 	local lootTable = {
-		17468, -- Death God's Signet
-		17469, -- Mueh'zala's Hexthread Sarong
-		17470, -- Reality-Shatter Vambraces
-		17471, -- Primeval Soul's Ankleguards
-		17472, -- Shadowgrasp Totem
-		17473, -- Harness of Twisted Whims
-		17474, -- Inner Fury
-		17475, -- Resolute Defender
-		17476, -- Heavy Rainfall
-		17477, -- Floral Recycling
-		17478, -- Rolling Agony
-		17479, -- Mind Devourer
-		17480, -- Eradicating Blow
-		17481, -- Memory of the Fatal Touch
-		17482, -- Memory of the Great Sundering
-		17483, -- Memory of a Prism of Shadow and Fire
+		179355, -- Death God's Signet
+		179351, -- Mueh'zala's Hexthread Sarong
+		179354, -- Reality-Shatter Vambraces
+		179352, -- Primeval Soul's Ankleguards
+		179356, -- Shadowgrasp Totem
+		179353, -- Harness of Twisted Whims
+		181376, -- Inner Fury
+		182684, -- Resolute Defender
+		182145, -- Heavy Rainfall
+		183490, -- Floral Recycling
+		182736, -- Rolling Agony
+		182138, -- Mind Devourer
+		181943, -- Eradicating Blow
+		183282, -- Memory of the Fatal Touch
+		183350, -- Memory of the Great Sundering
+		183329, -- Memory of a Prism of Shadow and Fire
 	}
 	self:RegisterBossLoot(deOtherSide, lootTable, bossName)
 end
@@ -817,19 +817,19 @@ function Dungeons:SanguineDepths()
 
 	local bossName = EJ_GetEncounterInfo(2388)
 	local lootTable = {
-		17626, -- Essence Surge Binders
-		17627, -- Shackles of Alluring Vitality
-		17628, -- Entwined Gorger Tendril
-		17629, -- Voracious Gorger Spine
-		17630, -- Anima-Splattered Hide
-		17631, -- Sabatons of the Rushing Juggernaut
-		17632, -- Hungering Devourer's Twinblade
-		17633, -- Vicious Contempt
-		17634, -- Evasive Stride
-		17635, -- Deadly Tandem
-		17636, -- Taste for Blood
-		17637, -- Memory of a Luffa-Infused Embrace
-		17638, -- Memory of Xuen
+		178844, -- Essence Surge Binders
+		178846, -- Shackles of Alluring Vitality
+		178848, -- Entwined Gorger Tendril
+		178853, -- Voracious Gorger Spine
+		178835, -- Anima-Splattered Hide
+		178836, -- Sabatons of the Rushing Juggernaut
+		178854, -- Hungering Devourer's Twinblade
+		181776, -- Vicious Contempt
+		181740, -- Evasive Stride
+		183202, -- Deadly Tandem
+		183480, -- Taste for Blood
+		183234, -- Memory of a Luffa-Infused Embrace
+		183297, -- Memory of Xuen
 	}
 	self:RegisterBossLoot(sanguineDepths, lootTable, bossName)
 
@@ -842,17 +842,17 @@ function Dungeons:SanguineDepths()
 
 	local bossName = EJ_GetEncounterInfo(2415)
 	local lootTable = {
-		17639, -- Executor's Prideful Girdle
-		17640, -- Overflowing Anima Cage
-		17641, -- Sinsoaked Waders
-		17642, -- Sinsmasher
-		17643, -- Vambraces of the Depraved Warden
-		17644, -- Castigator's Mantle
-		17645, -- Cloak of Enveloping Manifestations
-		17646, -- Roaring Fire
-		17647, -- Focused Mending
-		17648, -- Ashen Remains
-		17649, -- Debilitating Malady
+		178843, -- Executor's Prideful Girdle
+		178849, -- Overflowing Anima Cage
+		178837, -- Sinsoaked Waders
+		178855, -- Sinsmasher
+		178845, -- Vambraces of the Depraved Warden
+		178859, -- Castigator's Mantle
+		178851, -- Cloak of Enveloping Manifestations
+		182604, -- Roaring Fire
+		181942, -- Focused Mending
+		182755, -- Ashen Remains
+		182203, -- Debilitating Malady
 	}
 	self:RegisterBossLoot(sanguineDepths, lootTable, bossName)
 
@@ -865,20 +865,20 @@ function Dungeons:SanguineDepths()
 
 	local bossName = EJ_GetEncounterInfo(2421)
 	local lootTable = {
-		17650, -- Vessel of Shining Radiance
-		17651, -- Beryllia's Leggings of Endless Torment
-		17652, -- Lingering Sunmote
-		17653, -- Radiant Light Binders
-		17654, -- Iron Spiked Handgrips
-		17655, -- Waistguard of Expurged Anguish
-		17656, -- Virtuous Command
-		17657, -- Flash of Clarity
-		17658, -- Lasting Spirit
-		17659, -- Magma Fist
-		17660, -- Master Flame
-		17661, -- Vial of Roiling Emotions
-		17662, -- Memory of Flash Concentration
-		17663, -- Memory of Maraad's Dying Breath
+		178852, -- Vessel of Shining Radiance
+		178838, -- Beryllia's Leggings of Endless Torment
+		178850, -- Lingering Sunmote
+		178847, -- Radiant Light Binders
+		178841, -- Iron Spiked Handgrips
+		178842, -- Waistguard of Expurged Anguish
+		182608, -- Virtuous Command
+		183489, -- Flash of Clarity
+		181847, -- Lasting Spirit
+		182137, -- Magma Fist
+		181506, -- Master Flame
+		180591, -- Vial of Roiling Emotions
+		183323, -- Memory of Flash Concentration
+		183303, -- Memory of Maraad's Dying Breath
 	}
 	self:RegisterBossLoot(sanguineDepths, lootTable, bossName)
 
@@ -891,20 +891,20 @@ function Dungeons:SanguineDepths()
 
 	local bossName = EJ_GetEncounterInfo(2407)
 	local lootTable = {
-		17664, -- Kaal's Gloomblade
-		17665, -- Decanter of Anima-Charged Winds
-		17666, -- Guilewind Stone Talons
-		17667, -- Cowl of the Devoted General
-		17668, -- Wicked Bladewing Pauldrons
-		17669, -- Stone General's Edge
-		17670, -- Wind Dancer's Legguards
-		17671, -- Bladedancer's Armor Kit
-		17672, -- Punish the Guilty
-		17673, -- Pyroclastic Shock
-		17674, -- Triple Threat
-		17675, -- Walk with the Ox
-		17676, -- Memory of an Earthen Harmony
-		17677, -- Memory of Stormstout
+		178856, -- Kaal's Gloomblade
+		178861, -- Decanter of Anima-Charged Winds
+		178840, -- Guilewind Stone Talons
+		178860, -- Cowl of the Devoted General
+		178858, -- Wicked Bladewing Pauldrons
+		178857, -- Stone General's Edge
+		178839, -- Wind Dancer's Legguards
+		178862, -- Bladedancer's Armor Kit
+		182677, -- Punish the Guilty
+		182125, -- Pyroclastic Shock
+		183507, -- Triple Threat
+		181742, -- Walk with the Ox
+		183358, -- Memory of an Earthen Harmony
+		183289, -- Memory of Stormstout
 	}
 	self:RegisterBossLoot(sanguineDepths, lootTable, bossName)
 end
