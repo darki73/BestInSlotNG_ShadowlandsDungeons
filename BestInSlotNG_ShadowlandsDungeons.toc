@@ -1,0 +1,8 @@
+## Interface: 90002
+## Title: Best In Slot NG [|cffff975bShadowlands|r]
+## Notes: Shadowlands Dungeons Module for BestInSlotNG
+## Author: Astratheon @ Kazzak - EU
+## Version: v9.0.2
+## Dependencies: BestInSlotNG
+
+BestInSlotNG_ShadowlandsDungeons.lua
